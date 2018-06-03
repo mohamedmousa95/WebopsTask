@@ -10,10 +10,10 @@ import {
   Image,
   FlatList,
   TouchableHighlight,
-    Dimensions,
+  Dimensions,
 } from 'react-native';
 
-const { width, height } = Dimensions.get('window');
+const { width, height } = Dimensions.get('window'); //getting dimensions of the device
 
 const equalWidth = width /2; 
 const equalHeight = height /3;
